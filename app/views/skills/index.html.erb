@@ -8,10 +8,8 @@
 
       <header class="text-center">
         <h1>Lindsay Williams</h1>
-        <p><a href="mailto:williamsl25@yahoo.com" data-rel="external">williamsl25@yahoo.com</a> | <a href="tel:+16164058551">(616) 405-8551</a></p>
-        <div class="social">
-          <a href="https://github.com/williamsl25"><i class="fa fa-github fa-2x"></i>  github</a></p>
-        </div>
+        <p><a href="mailto:williamsl25@yahoo.com?subject=Saw your profile, can we talk?" data-rel="external"><i class="fa fa-envelope-o fa-2x"></i>  williamsl25@yahoo.com</a> <a href="tel:+16164058551"><i class="fa fa-phone fa-2x"></i>(616) 405-8551</a> <a href="https://github.com/williamsl25"><i class="fa fa-github fa-2x"></i>  github</a> </p>
+        <br>
       </header>
 
     </div> <!--end of .row -->
@@ -29,6 +27,10 @@
             <div class="row">
 
               <div class="col-sm-3 col-xs-6">
+                <a href="#skills">Skills</a>
+              </div>
+
+              <div class="col-sm-3 col-xs-6">
                 <a href="#education">Education</a>
               </div>
 
@@ -36,18 +38,40 @@
                 <a href="#prof-experience">Experience</a>
               </div>
 
-              <div class="col-sm-3 col-xs-6">
-                <a href="#skills">Skills</a>
-              </div>
+              
 
               <div class="col-sm-3 col-xs-6">
-                <a href="#dev-experience">Teaching</a>
+                <a href="#dev-experience">Projects</a>
               </div>
             
             </div> <!--end of .row -->      
           
           </nav>
 
+        </section>
+
+        <section id="skills">
+          <h2>Skills <span class="pull-right top-link"><a href="#resume-head">Top</a> </span> </h2>
+          <h4>Ruby on Rails</h4>
+            <ul>
+              <li>Full-Stack App Development</li>
+              <li>MySQL Database</li>
+              <li>Unit, Feature and Integration Testing</li>
+            </ul>
+          <h4>JavaScript</h4>
+            <ul>
+              <li>jQuery</li>
+              <li>AJAX</li>  
+              <li>AngularJS</li>  
+              
+            </ul>
+          <h4>HTML/CSS</h4>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>  
+              <li>Twitter Bootstrap</li>  
+              
+            </ul>   
         </section>
 
         <section id="education">
@@ -93,16 +117,16 @@
             <li> Committed to increasing student reading performance, reducing problem behaviors, and helping the school staff use student performance information to develop and evaluate behavior and reading interventions.</li>    
           </ul>
           <br>
-          <h4>Graduate Assistant, Supervisor: Camille Blachowicz, Ph. D. Director of the Reading and Language Program at National Louis University- 2003-2005</h4>
+          <h4>Graduate Assistant, Supervisor: Camille Blachowicz, Ph. D. Director of the Reading and Language Program at National Louis University - 2003-2005</h4>
           <br>
           <ul>
-            <li>Assisted in research and editing of the book, "Teaching Vocabulary in All Classrooms, 3rd Edition authored by Camille Blachowicz, Ph.D. and Peter Fisher, Ph.D. </li>
+            <li>Assisted in research and editing of the book, <u>Teaching Vocabulary in All Classrooms, 3rd Edition</u>  authored by Camille Blachowicz, Ph.D. and Peter Fisher, Ph.D. </li>
             <li>Maintained and updated the website for the Reading and Language department at National Louis University</li>
             
           </ul>
           <br>
            
-          <h4>Family Literacy Project, Supervisor: Kim Adamle, Ed. S.; Diane Salmon, PhD. - 2004-2005</h4>
+          <h4>Family Literacy Project, Supervisor: Kim Adamle, PhD.; Diane Salmon, PhD. - 2004-2005</h4>
           <br>
           <ul>
             <li>Participated in a multicultural literature program promoting literacy, values, and prevention.</li>
@@ -113,47 +137,38 @@
           <br>
         </section>
 
-        <section id="skills">
-          <h2>Skills <span class="pull-right top-link"><a href="#resume-head">Top</a> </span> </h2>
-          <h4>Ruby on Rails</h4>
-            <ul>
-              <li>Full-Stack App Development</li>
-              <li>MySQL Database</li>
-              <li>Unit, Feature and Integration Testing</li>
-            </ul>
-          <h4>JavaScript</h4>
-            <ul>
-              <li>jQuery</li>
-              <li>AJAX</li>  
-              <li>AngularJS</li>  
-              
-            </ul>
-          <h4>HTML/CSS</h4>
-            <ul>
-              <li>HTML5</li>
-              <li>CSS3</li>  
-              <li>Twitter Bootstrap</li>  
-              
-            </ul>   
-        </section>
-
         <section id="dev-experience">
-          <h2>Teaching Experience<span class="pull-right top-link"><a href="#resume-head">Top</a> </span></h2>
-          <h4>Michigan Career and Technical Institute: Teacher, Plainwell, MI, 2002-2003</h4>
+          <h2>Web Development Projects<span class="pull-right top-link"><a href="#resume-head">Top</a> </span></h2>
+          <h4>Homework Tracker</h4>
           <ul>
-            <li>Used the “Lindamood-Bell Phoneme Sequencing Program”, which covers theory and techniques of meaning and developing phonemic awareness and its application to reading, spelling, and speech.</li>
-            <li>Completed the “Seeing Stars Symbol Imagery Program”, which uses symbol imagery to stabilize phonemic awareness and orthographic processing. </li>
-            <li>Completed the Visualization and Verbalization instructional training.</li>
+            <li>Homework Tracker was a major project I completed during my studies at the Iron Yard. It is an application that tracks Homework submissions across the many Iron Yard locations. The database relationships are quite complex, with many overlapping relationships between users, locations, lessons, assignments, and submissions.
+
+            </li>
+            <li>Technologies: Ruby on Rails, MySQL, Devise and CanCan, Twitter Bootstrap</li>
           </ul>
-          <h4>Substitute Teaching, Kalamazoo, MI, 2001-2002</h4>
+          <br>
+          <h4>Iron Yard Hospital System</h4>
           <ul>
-            <li>Developed and followed lesson plans for grades K--12</li>
+            <li>Iron Yard Hospital System is an application that manages various hospital systems. Users can manage many different hospitals, patients, and medications. The pagination for the hospitals were created manually, with the use jQuery.
+
+            </li>
+            <li>Technologies: Ruby on Rails, MySQL, jQuery, AJAX, Twitter Bootstrap</li>
           </ul> 
-          <h4>Project H.E.L.P Instructional Tutor Western Michigan University, Kalamazoo, MI, 1999</h4>
+          <br>
+          <h4>Meeting of the Minds</h4>
           <ul>
-            <li>Responsibilities included tutoring elementary aged children using direct instructional methods both in reading and in math.  Progress monitoring and reinforcement interventions were also established.</li>
+            <li>...</li>
+            <li>Technologies: </li>
           </ul>        
           <br>
+          <h4>Calculator</h4>
+          <ul>
+            <li>A keypad calculator built using AngularJS. No data is saved to a database. All intermediary values are stored and modified as scope variables within the Angular controller.</li>
+            <li>Technology: AngularJS</li>
+          </ul>
+          <br>   
+
+          
    
         </section>
 

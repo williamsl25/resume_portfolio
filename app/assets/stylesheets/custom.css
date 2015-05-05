@@ -241,7 +241,7 @@ section{
 }
 #wrapper {
   background:url(http://www.hdwallpapers.rocks/wp-content/uploads/2015/02/Water-drop-Beautiful-Amazing-Wallpapers.jpeg) no-repeat;
-  height: 100%
+  background-size: cover;
 }
 
 #nav a {
@@ -300,13 +300,13 @@ section{
 #prof-experience a{
   color: black;}
 
-li{
+#resume-body li{
   color: black;
   font-size: 16px;
   letter-spacing: 1.5px;
   text-align: justify;
   margin-left: 25px;
   padding-right: 100px;
-  line-height: 20px;
+  line-height: 22px;
 }
 
