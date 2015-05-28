@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.0.0'
 gem 'haml-rails'
 gem 'bcrypt',                  '3.1.7'
 gem 'faker',                   '1.4.2'
