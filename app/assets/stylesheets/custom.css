@@ -105,6 +105,11 @@ a.btn:hover{
   color: #3F5263;
 }
 
+.bottom .content a:hover{
+  background: black;
+  color: #3F5263;
+}
+
 
 /* Text Styles for the page */
 h1 {
@@ -138,7 +143,7 @@ pre {
 
 .content{
   display:block;
-  padding:100px 50px;
+  padding:10px 50px;
   width:100%;
   max-width: 960px;
   margin:0 auto;
@@ -185,8 +190,9 @@ section{
 }
 .lower{
   background:url(resume_pic.jpg) no-repeat;
-  background-size: 1115px 415px;
+  background-size: 1230px 515px;
   width: 100%;
+  height: 275px;
 }
 .bottom{
   background:#26292C;
@@ -237,7 +243,7 @@ section{
 
 #resume-head {
   margin-top: 50px;
-  
+
 }
 #wrapper {
   background:url(http://www.hdwallpapers.rocks/wp-content/uploads/2015/02/Water-drop-Beautiful-Amazing-Wallpapers.jpeg) no-repeat;
@@ -268,6 +274,13 @@ section{
   font-size: 16px;
   padding-right: 70px;
 }
+#profile {
+  color: black;
+  text-align: left;
+  padding-left: 75px;
+}
+#proile a{
+  color: black;}
 #skills {
   color: black;
   text-align: left;
@@ -309,4 +322,10 @@ section{
   padding-right: 100px;
   line-height: 22px;
 }
-
+.col-md-3 a{
+  color: blue;
+}
+.col-md-3 img{
+  height: 215px;
+  width:215px;
+}
