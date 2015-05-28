@@ -49,6 +49,7 @@ test:
 #
 production:
   <<: *default
+  adapter: postgresql
   database: resume_production
   username: resume
   password: <%= ENV['RESUME_DATABASE_PASSWORD'] %>
