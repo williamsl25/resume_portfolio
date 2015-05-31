@@ -335,3 +335,9 @@ section{
   height: 215px;
   width:215px;
 }
+img.screenshot {
+  width: 250px;
+  height: 180px;
+  float: left;
+
+}
